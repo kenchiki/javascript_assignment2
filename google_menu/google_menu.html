@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>google menu</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <link href="google_menu.css" rel="stylesheet">
+  <script src="google_menu.js"></script>
+</head>
+<body>
+<div id="wrapper">
+  <header id="header">
+    <nav class="header-control">
+      <ul class="header-control__items">
+        <li><a href="#" class="header-control__tool">検索ツール</a></li>
+      </ul>
+    </nav>
+    <nav class="header-condition">
+      <ul class="header-condition__items">
+        <li>
+          <select>
+            <option value="すべての言語">すべての言語</option>
+            <option value="日本語のページを検索">日本語のページを検索</option>
+          </select>
+        </li>
+        <li>
+          <select>
+            <option value="期間指定なし">期間指定なし</option>
+            <option value="1時間以内"> 1時間以内</option>
+            <option value="24時間以内"> 24時間以内</option>
+            <option value="1週間以内">1週間以内</option>
+            <option value="1か月以内">1か月以内</option>
+            <option value="1年以内"> 1年以内</option>
+            <option value="すべての結果">すべての結果</option>
+          </select>
+        </li>
+        <li>
+          <select>
+            <option value="すべての結果">すべての結果</option>
+            <option value="完全一致"> 完全一致</option>
+          </select>
+        </li>
+      </ul>
+      <p class="header-condition__results">
+        約 2,470,000,000 件 （0.55 秒）
+      </p>
+    </nav>
+  </header>
+</div>
+</body>
+</html>

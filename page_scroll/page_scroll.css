@@ -1,0 +1,105 @@
+@charset "UTF-8";
+html, body,
+blockquote, div, h1, h2, h3, h4, h5, h6, p, pre,
+abbr, address, cite, em, img,
+small, span, strong, sub, sup,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, footer, header, nav, section,
+canvas, hr, iframe, object, time, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+article, aside, figcaption, figure,
+footer, header, hr, nav, section {
+  display: block;
+}
+
+html {
+  font-size: 62.5%;
+}
+html, html textarea {
+  font-family: 'Helvetica', 'Arial', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic ProN', 'Osaka', 'メイリオ', 'Meiryo', 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+body {
+  font-size: 1.4rem;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  color: #777777;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+#wrapper {
+  width: 900px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#page-scroll {
+  position: absolute;
+  right: 20px;
+}
+#page-scroll .page-scroll__items {
+  position: fixed;
+  bottom: 20px;
+}
+#page-scroll .page-scroll__items > * {
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  background: #eee;
+  text-align: center;
+  opacity: 0.5;
+  cursor: pointer;
+}
+#page-scroll .page-scroll__items > *:nth-child(n+2) {
+  border-top: 0;
+}
+#page-scroll .page-scroll__items > * i {
+  font-size: 100px;
+  color: #666;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+#page-scroll .page-scroll__disabled {
+  opacity: 0.2;
+  cursor: inherit;
+}
+
+.dummy-text p {
+  margin-top: 100px;
+}
+
+/*# sourceMappingURL=page_scroll.css.map */
